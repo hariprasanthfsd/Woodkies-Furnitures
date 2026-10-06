@@ -1,0 +1,1724 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Woodkies Woods and Furnitures | Timeless Luxury Hardwood Furniture</title>
+  <meta name="description" content="Handcrafted, timeless furniture made from ethically sourced hardwoods. Discover sofas, dining tables, beds, and custom furniture for living." />
+
+  <!-- Google Fonts Preconnect & Stylesheets -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,600&family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,400&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+
+  <!-- Site Stylesheets -->
+  <link rel="stylesheet" href="./css/variables.css" />
+  <link rel="stylesheet" href="./css/style.css" />
+  <link rel="stylesheet" href="./css/components.css" />
+
+  <!-- Favicon / Vector Mark -->
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><circle cx='50' cy='50' r='50' fill='%2342362e'/><path d='M30 65 L42 35 L50 55 L58 35 L70 65' stroke='%23f7f9f6' stroke-width='6' stroke-linecap='round' stroke-linejoin='round' fill='none'/></svg>" />
+</head>
+<body>
+
+  <!-- ==========================================================================
+       1. FLOATING GLASS NAVBAR
+       ========================================================================== -->
+  <header class="navbar-wrapper">
+    <nav class="navbar-pill" aria-label="Main Navigation">
+      <!-- Logo Circle & Brand -->
+      <a href="#home" class="brand-link" aria-label="Woodkies Woods and Furnitures Home">
+        <div class="logo-circle">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+            <!-- Interlocking W Woodworking Craftsmanship Glyph -->
+            <path d="M4 19L8 6L12 15L16 6L20 19"></path>
+          </svg>
+        </div>
+        <div class="brand-text-wrap">
+          <span class="brand-name">Woodkies</span>
+          <span class="brand-sub">Woods & Furnitures</span>
+        </div>
+      </a>
+
+      <!-- Center Nav Links -->
+      <ul class="nav-menu">
+        <li><a href="#home" class="nav-link">Home</a></li>
+        <li><a href="#categories" class="nav-link">Furniture</a></li>
+        <li><a href="#featured" class="nav-link">Collections</a></li>
+        <li><a href="#about" class="nav-link">About Us</a></li>
+        <li><a href="#custom" class="nav-link">Custom Furniture</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+
+      <!-- Right Actions: Liked Collection, Theme Toggle & Mobile Hamburger -->
+      <div class="nav-actions">
+        <!-- Liked Collection Button -->
+        <button class="nav-liked-btn open-wishlist-btn" aria-label="View Liked Collection" title="View Liked Collection">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" stroke="none">
+            <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path>
+          </svg>
+          <span class="liked-btn-text">Liked Collection</span>
+          <span class="badge-count wishlist-badge-count" style="display:none">0</span>
+        </button>
+
+        <!-- Theme Toggle Button -->
+        <button class="icon-btn theme-toggle-btn" id="theme-toggle-btn" aria-label="Toggle Color Theme" title="Toggle Light / Dark Theme">
+          <!-- Sun Icon (Active in Dark mode) -->
+          <svg class="theme-icon-sun" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <circle cx="12" cy="12" r="5"></circle>
+            <line x1="12" y1="1" x2="12" y2="3"></line>
+            <line x1="12" y1="21" x2="12" y2="23"></line>
+            <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+            <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+            <line x1="1" y1="12" x2="3" y2="12"></line>
+            <line x1="21" y1="12" x2="23" y2="12"></line>
+            <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+            <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+          </svg>
+          <!-- Moon Icon (Active in Light mode) -->
+          <svg class="theme-icon-moon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+          </svg>
+        </button>
+
+        <!-- Mobile Hamburger Toggle -->
+        <button class="hamburger-btn" aria-label="Toggle Navigation Menu">
+          <span class="hamburger-icon">
+            <span class="hamburger-line"></span>
+            <span class="hamburger-line"></span>
+          </span>
+        </button>
+      </div>
+    </nav>
+  </header>
+
+  <!-- Mobile Drawer Menu -->
+  <div class="mobile-nav-drawer" id="mobile-nav-drawer">
+    <div class="mobile-nav-panel">
+      <div class="mobile-nav-header">
+        <a href="#home" class="brand-link">
+          <div class="logo-circle">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2">
+              <path d="M4 19L8 6L12 15L16 6L20 19"></path>
+            </svg>
+          </div>
+          <div class="brand-text-wrap">
+            <span class="brand-name">Woodkies</span>
+            <span class="brand-sub">Woods & Furnitures</span>
+          </div>
+        </a>
+        <button class="close-btn close-mobile-nav" aria-label="Close menu">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <line x1="18" y1="6" x2="6" y2="18"></line>
+            <line x1="6" y1="6" x2="18" y2="18"></line>
+          </svg>
+        </button>
+      </div>
+
+      <ul class="mobile-nav-links">
+        <li><a href="#home">Home <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"></polyline></svg></a></li>
+        <li><a href="#categories">Furniture <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"></polyline></svg></a></li>
+        <li><a href="#featured">Collections <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"></polyline></svg></a></li>
+        <li><a href="#rooms">Explore Spaces <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"></polyline></svg></a></li>
+        <li><a href="#about">About Us <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"></polyline></svg></a></li>
+        <li><a href="#custom">Custom Furniture <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"></polyline></svg></a></li>
+        <li><a href="#contact">Contact <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"></polyline></svg></a></li>
+      </ul>
+
+      <div class="mobile-nav-footer">
+        <div class="mobile-theme-row">
+          <span>Theme Atmosphere</span>
+          <button class="theme-switch-pill" id="mobile-theme-toggle-btn" aria-label="Toggle light or dark theme">
+            <svg class="mobile-theme-icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <circle cx="12" cy="12" r="5"></circle>
+              <line x1="12" y1="1" x2="12" y2="3"></line>
+              <line x1="12" y1="21" x2="12" y2="23"></line>
+            </svg>
+            <span id="mobile-theme-label">Atelier Dark</span>
+          </button>
+        </div>
+        <button class="btn-pill btn-primary open-wishlist-btn close-mobile-nav" style="width:100%; text-align:center;">
+          View Liked Collection (<span class="wishlist-badge-count">0</span>)
+        </button>
+        <button class="btn-pill btn-outline-dark open-custom-modal-btn close-mobile-nav" style="width:100%;">Request Custom Furniture</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- ==========================================================================
+       2. FULL-SCREEN CINEMATIC HERO
+       ========================================================================== -->
+  <section class="hero-section" id="home">
+    <!-- Fixed viewport background with dynamic scroll-based scale & blur interpolation -->
+    <div class="hero-bg-container">
+      <div class="hero-bg-layer" id="hero-bg-layer"></div>
+      <div class="hero-overlay" id="hero-overlay"></div>
+      <div class="hero-vignette"></div>
+    </div>
+
+    <!-- Foreground Content (Remains Sharp & Crisp) -->
+    <div class="hero-content">
+      <div class="hero-eyebrow">
+        <span class="hero-eyebrow-dot"></span>
+        <span>CRAFTED FOR YOUR SPACE</span>
+      </div>
+
+      <h1 class="hero-title">
+        Timeless Furniture, <em>Crafted for Living.</em>
+      </h1>
+
+      <p class="hero-desc">
+        Beautifully crafted furniture designed to bring warmth, comfort, and character into every space.
+      </p>
+
+      <div class="hero-buttons">
+        <a href="#categories" class="btn-pill btn-primary">
+          Explore Furniture
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <line x1="5" y1="12" x2="19" y2="12"></line>
+            <polyline points="12 5 19 12 12 19"></polyline>
+          </svg>
+        </a>
+        <a href="#featured" class="btn-pill btn-outline-glass">
+          Discover Our Collection
+        </a>
+      </div>
+    </div>
+
+    <!-- Scroll Indicator -->
+    <a href="#categories" class="hero-scroll-indicator" aria-label="Scroll to browse categories">
+      <div class="mouse-icon">
+        <div class="mouse-wheel"></div>
+      </div>
+      <span>Scroll to explore</span>
+    </a>
+  </section>
+
+  <!-- ==========================================================================
+       3. FURNITURE CATEGORIES
+       ========================================================================== -->
+  <section class="section" id="categories">
+    <div class="container">
+      <div class="section-header">
+        <span class="eyebrow">CURATED SILHOUETTES</span>
+        <h2 class="section-title">Find Your Perfect Piece</h2>
+        <p class="section-subtitle">
+          Explore our eight foundational categories, each sculptured from solid sustainable timbers and tailored for modern spaces.
+        </p>
+      </div>
+
+      <!-- Categories Masonry / Asymmetrical Grid -->
+      <div class="categories-grid" id="categories-grid">
+        <!-- 1. Sofas (span-2-col) -->
+        <div class="category-card span-2-col reveal-on-scroll delay-1" data-category-id="sofas" onclick="filterProductsByCategory('sofas')">
+          <div class="category-card-img-wrap">
+            <img src="https://images.unsplash.com/photo-1555041469-a586c61ea9bc?auto=format&fit=crop&w=1000&q=80" alt="Sofas Collection" loading="lazy" />
+          </div>
+          <div class="category-card-overlay"></div>
+          <div class="category-card-content">
+            <div class="category-info">
+              <h3>Sofas</h3>
+              <span class="category-count">28 Designs</span>
+            </div>
+            <button class="category-arrow-btn" aria-label="Browse Sofas">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <line x1="5" y1="12" x2="19" y2="12"></line>
+                <polyline points="12 5 19 12 12 19"></polyline>
+              </svg>
+            </button>
+          </div>
+        </div>
+
+        <!-- 2. Beds -->
+        <div class="category-card span-1-col reveal-on-scroll delay-2" data-category-id="beds" onclick="filterProductsByCategory('beds')">
+          <div class="category-card-img-wrap">
+            <img src="https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?auto=format&fit=crop&w=1000&q=80" alt="Beds Collection" loading="lazy" />
+          </div>
+          <div class="category-card-overlay"></div>
+          <div class="category-card-content">
+            <div class="category-info">
+              <h3>Beds</h3>
+              <span class="category-count">22 Designs</span>
+            </div>
+            <button class="category-arrow-btn" aria-label="Browse Beds">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <line x1="5" y1="12" x2="19" y2="12"></line>
+                <polyline points="12 5 19 12 12 19"></polyline>
+              </svg>
+            </button>
+          </div>
+        </div>
+
+        <!-- 3. Dining Tables (span-2-row) -->
+        <div class="category-card span-2-row reveal-on-scroll delay-3" data-category-id="dining-tables" onclick="filterProductsByCategory('dining-tables')">
+          <div class="category-card-img-wrap">
+            <img src="https://images.unsplash.com/photo-1617806118233-18e1de247200?auto=format&fit=crop&w=1000&q=80" alt="Dining Tables Collection" loading="lazy" />
+          </div>
+          <div class="category-card-overlay"></div>
+          <div class="category-card-content">
+            <div class="category-info">
+              <h3>Dining Tables</h3>
+              <span class="category-count">19 Designs</span>
+            </div>
+            <button class="category-arrow-btn" aria-label="Browse Dining Tables">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <line x1="5" y1="12" x2="19" y2="12"></line>
+                <polyline points="12 5 19 12 12 19"></polyline>
+              </svg>
+            </button>
+          </div>
+        </div>
+
+        <!-- 4. Chairs -->
+        <div class="category-card span-1-col reveal-on-scroll delay-1" data-category-id="chairs" onclick="filterProductsByCategory('chairs')">
+          <div class="category-card-img-wrap">
+            <img src="https://images.unsplash.com/photo-1567538096630-e0c55bd6374c?auto=format&fit=crop&w=1000&q=80" alt="Chairs Collection" loading="lazy" />
+          </div>
+          <div class="category-card-overlay"></div>
+          <div class="category-card-content">
+            <div class="category-info">
+              <h3>Chairs</h3>
+              <span class="category-count">34 Designs</span>
+            </div>
+            <button class="category-arrow-btn" aria-label="Browse Chairs">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <line x1="5" y1="12" x2="19" y2="12"></line>
+                <polyline points="12 5 19 12 12 19"></polyline>
+              </svg>
+            </button>
+          </div>
+        </div>
+
+        <!-- 5. Wardrobes -->
+        <div class="category-card span-1-col reveal-on-scroll delay-2" data-category-id="wardrobes" onclick="filterProductsByCategory('wardrobes')">
+          <div class="category-card-img-wrap">
+            <img src="https://images.unsplash.com/photo-1595428774223-ef52624120d2?auto=format&fit=crop&w=1000&q=80" alt="Wardrobes Collection" loading="lazy" />
+          </div>
+          <div class="category-card-overlay"></div>
+          <div class="category-card-content">
+            <div class="category-info">
+              <h3>Wardrobes</h3>
+              <span class="category-count">15 Designs</span>
+            </div>
+            <button class="category-arrow-btn" aria-label="Browse Wardrobes">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <line x1="5" y1="12" x2="19" y2="12"></line>
+                <polyline points="12 5 19 12 12 19"></polyline>
+              </svg>
+            </button>
+          </div>
+        </div>
+
+        <!-- 6. TV Units -->
+        <div class="category-card span-1-col reveal-on-scroll delay-3" data-category-id="tv-units" onclick="filterProductsByCategory('tv-units')">
+          <div class="category-card-img-wrap">
+            <img src="https://images.unsplash.com/photo-1594026112284-02bb6f3352fe?auto=format&fit=crop&w=1000&q=80" alt="TV Units Collection" loading="lazy" />
+          </div>
+          <div class="category-card-overlay"></div>
+          <div class="category-card-content">
+            <div class="category-info">
+              <h3>TV Units</h3>
+              <span class="category-count">18 Designs</span>
+            </div>
+            <button class="category-arrow-btn" aria-label="Browse TV Units">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <line x1="5" y1="12" x2="19" y2="12"></line>
+                <polyline points="12 5 19 12 12 19"></polyline>
+              </svg>
+            </button>
+          </div>
+        </div>
+
+        <!-- 7. Office Furniture -->
+        <div class="category-card span-1-col reveal-on-scroll delay-1" data-category-id="office-furniture" onclick="filterProductsByCategory('office-furniture')">
+          <div class="category-card-img-wrap">
+            <img src="https://images.unsplash.com/photo-1518455027359-f3f8164ba6bd?auto=format&fit=crop&w=1000&q=80" alt="Office Furniture Collection" loading="lazy" />
+          </div>
+          <div class="category-card-overlay"></div>
+          <div class="category-card-content">
+            <div class="category-info">
+              <h3>Office Furniture</h3>
+              <span class="category-count">16 Designs</span>
+            </div>
+            <button class="category-arrow-btn" aria-label="Browse Office Furniture">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <line x1="5" y1="12" x2="19" y2="12"></line>
+                <polyline points="12 5 19 12 12 19"></polyline>
+              </svg>
+            </button>
+          </div>
+        </div>
+
+        <!-- 8. Outdoor Furniture -->
+        <div class="category-card span-1-col reveal-on-scroll delay-2" data-category-id="outdoor-furniture" onclick="filterProductsByCategory('outdoor-furniture')">
+          <div class="category-card-img-wrap">
+            <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1000&q=80" alt="Outdoor Furniture Collection" loading="lazy" />
+          </div>
+          <div class="category-card-overlay"></div>
+          <div class="category-card-content">
+            <div class="category-info">
+              <h3>Outdoor Furniture</h3>
+              <span class="category-count">20 Designs</span>
+            </div>
+            <button class="category-arrow-btn" aria-label="Browse Outdoor Furniture">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <line x1="5" y1="12" x2="19" y2="12"></line>
+                <polyline points="12 5 19 12 12 19"></polyline>
+              </svg>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       4. FEATURED FURNITURE PRODUCTS
+       ========================================================================== -->
+  <section class="section section-muted" id="featured">
+    <div class="container">
+      <div class="section-header">
+        <span class="eyebrow eyebrow-accent">SIGNATURE HEIRLOOMS</span>
+        <h2 class="section-title">Featured Collection</h2>
+        <p class="section-subtitle">
+          Iconic designs balancing architectural structure, sensual organic woodgrain, and uncompromising day-to-day comfort.
+        </p>
+      </div>
+
+      <!-- Category Filter Pills -->
+      <div class="featured-filter-bar">
+        <button class="filter-pill active" data-filter="all">All Pieces</button>
+        <button class="filter-pill" data-filter="living-room">Living Room</button>
+        <button class="filter-pill" data-filter="dining-room">Dining</button>
+        <button class="filter-pill" data-filter="bedroom">Bedroom</button>
+        <button class="filter-pill" data-filter="home-office">Workspace</button>
+        <button class="filter-pill" data-filter="sofas">Sofas</button>
+        <button class="filter-pill" data-filter="chairs">Chairs</button>
+        <button class="filter-pill" data-filter="beds">Beds</button>
+        <button class="filter-pill" data-filter="storage">Storage & TV</button>
+        <button class="filter-pill" data-filter="outdoor">Outdoor</button>
+      </div>
+
+      <!-- Products Grid -->
+      <div class="products-grid" id="featured-products-grid">
+        <!-- 1. Artisan Lounge Sofa -->
+        <article class="product-card reveal-on-scroll delay-1" data-product-id="artisan-lounge-sofa">
+          <div class="product-image-wrap">
+            <img src="https://images.unsplash.com/photo-1555041469-a586c61ea9bc?auto=format&fit=crop&w=1000&q=80" alt="Artisan Lounge Sofa" class="product-image-primary" loading="lazy" />
+            <span class="product-badge">Bestseller</span>
+            <button class="product-wishlist-btn" aria-label="Save to wishlist" onclick="toggleWishlist('artisan-lounge-sofa')">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path>
+              </svg>
+            </button>
+            <button class="product-quick-view-btn" onclick="openQuickView('artisan-lounge-sofa')">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path><circle cx="12" cy="12" r="3"></circle></svg>
+              Quick View
+            </button>
+          </div>
+          <div class="product-body">
+            <span class="product-category-meta">Sofas</span>
+            <h4 class="product-name" onclick="openQuickView('artisan-lounge-sofa')" style="cursor:pointer">Artisan Lounge Sofa</h4>
+            <div class="product-rating">
+              <span class="star-rating">★★★★★</span>
+              <span>4.9</span>
+              <span class="review-count">(128)</span>
+            </div>
+            <div class="product-footer">
+              <div class="product-price-wrap">
+                <span class="product-price">$1,850</span>
+                <span class="product-original-price">$2,150</span>
+              </div>
+              <button class="product-details-btn" onclick="openQuickView('artisan-lounge-sofa')">
+                View Details
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"></polyline></svg>
+              </button>
+            </div>
+          </div>
+        </article>
+
+        <!-- 2. Oakwood Dining Table -->
+        <article class="product-card reveal-on-scroll delay-2" data-product-id="oakwood-dining-table">
+          <div class="product-image-wrap">
+            <img src="https://images.unsplash.com/photo-1617806118233-18e1de247200?auto=format&fit=crop&w=1000&q=80" alt="Oakwood Dining Table" class="product-image-primary" loading="lazy" />
+            <span class="product-badge">Signature</span>
+            <button class="product-wishlist-btn" aria-label="Save to wishlist" onclick="toggleWishlist('oakwood-dining-table')">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path>
+              </svg>
+            </button>
+            <button class="product-quick-view-btn" onclick="openQuickView('oakwood-dining-table')">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path><circle cx="12" cy="12" r="3"></circle></svg>
+              Quick View
+            </button>
+          </div>
+          <div class="product-body">
+            <span class="product-category-meta">Dining Tables</span>
+            <h4 class="product-name" onclick="openQuickView('oakwood-dining-table')" style="cursor:pointer">Oakwood Dining Table</h4>
+            <div class="product-rating">
+              <span class="star-rating">★★★★★</span>
+              <span>4.9</span>
+              <span class="review-count">(94)</span>
+            </div>
+            <div class="product-footer">
+              <div class="product-price-wrap">
+                <span class="product-price">$1,420</span>
+              </div>
+              <button class="product-details-btn" onclick="openQuickView('oakwood-dining-table')">
+                View Details
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"></polyline></svg>
+              </button>
+            </div>
+          </div>
+        </article>
+
+        <!-- 3. Heritage Queen Bed -->
+        <article class="product-card reveal-on-scroll delay-3" data-product-id="heritage-queen-bed">
+          <div class="product-image-wrap">
+            <img src="https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?auto=format&fit=crop&w=1000&q=80" alt="Heritage Queen Bed" class="product-image-primary" loading="lazy" />
+            <span class="product-badge">Heirloom</span>
+            <button class="product-wishlist-btn" aria-label="Save to wishlist" onclick="toggleWishlist('heritage-queen-bed')">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path>
+              </svg>
+            </button>
+            <button class="product-quick-view-btn" onclick="openQuickView('heritage-queen-bed')">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path><circle cx="12" cy="12" r="3"></circle></svg>
+              Quick View
+            </button>
+          </div>
+          <div class="product-body">
+            <span class="product-category-meta">Beds</span>
+            <h4 class="product-name" onclick="openQuickView('heritage-queen-bed')" style="cursor:pointer">Heritage Queen Bed</h4>
+            <div class="product-rating">
+              <span class="star-rating">★★★★★</span>
+              <span>5.0</span>
+              <span class="review-count">(112)</span>
+            </div>
+            <div class="product-footer">
+              <div class="product-price-wrap">
+                <span class="product-price">$2,190</span>
+                <span class="product-original-price">$2,450</span>
+              </div>
+              <button class="product-details-btn" onclick="openQuickView('heritage-queen-bed')">
+                View Details
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"></polyline></svg>
+              </button>
+            </div>
+          </div>
+        </article>
+
+        <!-- 4. Minimalist Lounge Chair -->
+        <article class="product-card reveal-on-scroll delay-4" data-product-id="minimalist-lounge-chair">
+          <div class="product-image-wrap">
+            <img src="https://images.unsplash.com/photo-1567538096630-e0c55bd6374c?auto=format&fit=crop&w=1000&q=80" alt="Minimalist Lounge Chair" class="product-image-primary" loading="lazy" />
+            <span class="product-badge">Trending</span>
+            <button class="product-wishlist-btn" aria-label="Save to wishlist" onclick="toggleWishlist('minimalist-lounge-chair')">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path>
+              </svg>
+            </button>
+            <button class="product-quick-view-btn" onclick="openQuickView('minimalist-lounge-chair')">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path><circle cx="12" cy="12" r="3"></circle></svg>
+              Quick View
+            </button>
+          </div>
+          <div class="product-body">
+            <span class="product-category-meta">Chairs</span>
+            <h4 class="product-name" onclick="openQuickView('minimalist-lounge-chair')" style="cursor:pointer">Minimalist Lounge Chair</h4>
+            <div class="product-rating">
+              <span class="star-rating">★★★★★</span>
+              <span>4.8</span>
+              <span class="review-count">(86)</span>
+            </div>
+            <div class="product-footer">
+              <div class="product-price-wrap">
+                <span class="product-price">$680</span>
+                <span class="product-original-price">$750</span>
+              </div>
+              <button class="product-details-btn" onclick="openQuickView('minimalist-lounge-chair')">
+                View Details
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"></polyline></svg>
+              </button>
+            </div>
+          </div>
+        </article>
+
+        <!-- 5. Classic Wooden Wardrobe -->
+        <article class="product-card reveal-on-scroll delay-1" data-product-id="classic-wooden-wardrobe">
+          <div class="product-image-wrap">
+            <img src="https://images.unsplash.com/photo-1595428774223-ef52624120d2?auto=format&fit=crop&w=1000&q=80" alt="Classic Wooden Wardrobe" class="product-image-primary" loading="lazy" />
+            <span class="product-badge">Artisan Craft</span>
+            <button class="product-wishlist-btn" aria-label="Save to wishlist" onclick="toggleWishlist('classic-wooden-wardrobe')">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path>
+              </svg>
+            </button>
+            <button class="product-quick-view-btn" onclick="openQuickView('classic-wooden-wardrobe')">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path><circle cx="12" cy="12" r="3"></circle></svg>
+              Quick View
+            </button>
+          </div>
+          <div class="product-body">
+            <span class="product-category-meta">Wardrobes</span>
+            <h4 class="product-name" onclick="openQuickView('classic-wooden-wardrobe')" style="cursor:pointer">Classic Wooden Wardrobe</h4>
+            <div class="product-rating">
+              <span class="star-rating">★★★★★</span>
+              <span>4.9</span>
+              <span class="review-count">(63)</span>
+            </div>
+            <div class="product-footer">
+              <div class="product-price-wrap">
+                <span class="product-price">$2,650</span>
+                <span class="product-original-price">$2,980</span>
+              </div>
+              <button class="product-details-btn" onclick="openQuickView('classic-wooden-wardrobe')">
+                View Details
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"></polyline></svg>
+              </button>
+            </div>
+          </div>
+        </article>
+
+        <!-- 6. Modern TV Console -->
+        <article class="product-card reveal-on-scroll delay-2" data-product-id="modern-tv-console">
+          <div class="product-image-wrap">
+            <img src="https://images.unsplash.com/photo-1594026112284-02bb6f3352fe?auto=format&fit=crop&w=1000&q=80" alt="Modern TV Console" class="product-image-primary" loading="lazy" />
+            <span class="product-badge">Modern Classic</span>
+            <button class="product-wishlist-btn" aria-label="Save to wishlist" onclick="toggleWishlist('modern-tv-console')">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path>
+              </svg>
+            </button>
+            <button class="product-quick-view-btn" onclick="openQuickView('modern-tv-console')">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path><circle cx="12" cy="12" r="3"></circle></svg>
+              Quick View
+            </button>
+          </div>
+          <div class="product-body">
+            <span class="product-category-meta">TV Units</span>
+            <h4 class="product-name" onclick="openQuickView('modern-tv-console')" style="cursor:pointer">Modern TV Console</h4>
+            <div class="product-rating">
+              <span class="star-rating">★★★★★</span>
+              <span>4.8</span>
+              <span class="review-count">(77)</span>
+            </div>
+            <div class="product-footer">
+              <div class="product-price-wrap">
+                <span class="product-price">$940</span>
+              </div>
+              <button class="product-details-btn" onclick="openQuickView('modern-tv-console')">
+                View Details
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"></polyline></svg>
+              </button>
+            </div>
+          </div>
+        </article>
+
+        <!-- 7. Sculptural Travertine & Oak Table -->
+        <article class="product-card reveal-on-scroll delay-3" data-product-id="sculptural-coffee-table">
+          <div class="product-image-wrap">
+            <img src="https://images.unsplash.com/photo-1532372320572-cda25653a26d?auto=format&fit=crop&w=1000&q=80" alt="Sculptural Travertine & Oak Table" class="product-image-primary" loading="lazy" />
+            <span class="product-badge">Editor's Pick</span>
+            <button class="product-wishlist-btn" aria-label="Save to wishlist" onclick="toggleWishlist('sculptural-coffee-table')">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path>
+              </svg>
+            </button>
+            <button class="product-quick-view-btn" onclick="openQuickView('sculptural-coffee-table')">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path><circle cx="12" cy="12" r="3"></circle></svg>
+              Quick View
+            </button>
+          </div>
+          <div class="product-body">
+            <span class="product-category-meta">Living Room</span>
+            <h4 class="product-name" onclick="openQuickView('sculptural-coffee-table')" style="cursor:pointer">Sculptural Travertine Table</h4>
+            <div class="product-rating">
+              <span class="star-rating">★★★★★</span>
+              <span>4.9</span>
+              <span class="review-count">(52)</span>
+            </div>
+            <div class="product-footer">
+              <div class="product-price-wrap">
+                <span class="product-price">$540</span>
+                <span class="product-original-price">$620</span>
+              </div>
+              <button class="product-details-btn" onclick="openQuickView('sculptural-coffee-table')">
+                View Details
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"></polyline></svg>
+              </button>
+            </div>
+          </div>
+        </article>
+
+        <!-- 8. Nordic Spindle Bookshelf -->
+        <article class="product-card reveal-on-scroll delay-4" data-product-id="nordic-spindle-bookshelf">
+          <div class="product-image-wrap">
+            <img src="https://images.unsplash.com/photo-1594938298603-c8148c4dae35?auto=format&fit=crop&w=1000&q=80" alt="Nordic Spindle Bookshelf" class="product-image-primary" loading="lazy" />
+            <span class="product-badge">Refined</span>
+            <button class="product-wishlist-btn" aria-label="Save to wishlist" onclick="toggleWishlist('nordic-spindle-bookshelf')">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path>
+              </svg>
+            </button>
+            <button class="product-quick-view-btn" onclick="openQuickView('nordic-spindle-bookshelf')">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path><circle cx="12" cy="12" r="3"></circle></svg>
+              Quick View
+            </button>
+          </div>
+          <div class="product-body">
+            <span class="product-category-meta">Office Furniture</span>
+            <h4 class="product-name" onclick="openQuickView('nordic-spindle-bookshelf')" style="cursor:pointer">Nordic Spindle Bookshelf</h4>
+            <div class="product-rating">
+              <span class="star-rating">★★★★★</span>
+              <span>4.9</span>
+              <span class="review-count">(45)</span>
+            </div>
+            <div class="product-footer">
+              <div class="product-price-wrap">
+                <span class="product-price">$1,150</span>
+              </div>
+              <button class="product-details-btn" onclick="openQuickView('nordic-spindle-bookshelf')">
+                View Details
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"></polyline></svg>
+              </button>
+            </div>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       5. SHOP BY ROOM
+       ========================================================================== -->
+  <section class="section" id="rooms">
+    <div class="container">
+      <div class="section-header">
+        <span class="eyebrow">ARCHITECTURAL HARMONY</span>
+        <h2 class="section-title">Furniture for Every Space</h2>
+        <p class="section-subtitle">
+          Experience coordinated spaces created to foster tranquility, conversation, and effortless daily rituals.
+        </p>
+      </div>
+
+      <!-- Asymmetrical Editorial Rooms Grid -->
+      <div class="rooms-grid" id="rooms-grid">
+        <!-- 1. Living Room -->
+        <div class="room-card reveal-on-scroll delay-1" onclick="filterProductsByCategory('living-room')">
+          <img src="https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?auto=format&fit=crop&w=1200&q=80" alt="Living Room Furniture" class="room-img" loading="lazy" />
+          <div class="room-overlay"></div>
+          <div class="room-content">
+            <span class="room-meta">42 Curated Pieces</span>
+            <h3 class="room-name">Living Room</h3>
+            <p class="room-subtitle">Comfortable sanctuaries built for serene gathering</p>
+            <span class="room-cta">Explore Room <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg></span>
+          </div>
+        </div>
+
+        <!-- 2. Bedroom -->
+        <div class="room-card reveal-on-scroll delay-2" onclick="filterProductsByCategory('bedroom')">
+          <img src="https://images.unsplash.com/photo-1616594039964-ae9021a400a0?auto=format&fit=crop&w=1200&q=80" alt="Bedroom Furniture" class="room-img" loading="lazy" />
+          <div class="room-overlay"></div>
+          <div class="room-content">
+            <span class="room-meta">29 Curated Pieces</span>
+            <h3 class="room-name">Bedroom</h3>
+            <p class="room-subtitle">Quiet restfulness formed by organic natural wood</p>
+            <span class="room-cta">Explore Room <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg></span>
+          </div>
+        </div>
+
+        <!-- 3. Dining Room -->
+        <div class="room-card reveal-on-scroll delay-1" onclick="filterProductsByCategory('dining-room')">
+          <img src="https://images.unsplash.com/photo-1617806118233-18e1de247200?auto=format&fit=crop&w=1200&q=80" alt="Dining Room Furniture" class="room-img" loading="lazy" />
+          <div class="room-overlay"></div>
+          <div class="room-content">
+            <span class="room-meta">31 Curated Pieces</span>
+            <h3 class="room-name">Dining Room</h3>
+            <p class="room-subtitle">Heartcrafted tables that turn meals into memorable occasions</p>
+            <span class="room-cta">Explore Room <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg></span>
+          </div>
+        </div>
+
+        <!-- 4. Home Office -->
+        <div class="room-card reveal-on-scroll delay-2" onclick="filterProductsByCategory('home-office')">
+          <img src="https://images.unsplash.com/photo-1593062096033-9a26b09da705?auto=format&fit=crop&w=1200&q=80" alt="Home Office Furniture" class="room-img" loading="lazy" />
+          <div class="room-overlay"></div>
+          <div class="room-content">
+            <span class="room-meta">24 Curated Pieces</span>
+            <h3 class="room-name">Home Office</h3>
+            <p class="room-subtitle">Clutter-free ergonomics for clarity and productive flow</p>
+            <span class="room-cta">Explore Room <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg></span>
+          </div>
+        </div>
+
+        <!-- 5. Outdoor -->
+        <div class="room-card reveal-on-scroll delay-3" onclick="filterProductsByCategory('outdoor')">
+          <img src="https://images.unsplash.com/photo-1519974719765-e6559eac2575?auto=format&fit=crop&w=1200&q=80" alt="Outdoor Patio Furniture" class="room-img" loading="lazy" />
+          <div class="room-overlay"></div>
+          <div class="room-content">
+            <span class="room-meta">18 Curated Pieces</span>
+            <h3 class="room-name">Outdoor</h3>
+            <p class="room-subtitle">Resilient open-air lounging inspired by nature</p>
+            <span class="room-cta">Explore Room <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg></span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       6. NEW ARRIVALS
+       ========================================================================== -->
+  <section class="section" id="new-arrivals">
+    <div class="container">
+      <div class="arrivals-header-wrap">
+        <div>
+          <span class="eyebrow eyebrow-accent">JUST UNVEILED</span>
+          <h2 class="section-title" style="margin-bottom:0.4rem;">New Arrivals</h2>
+          <p class="section-subtitle" style="margin-left:0;">
+            Fresh proportions, tactile bouclé, and sustainable raw oak finishes just arrived from our design studio.
+          </p>
+        </div>
+        <div class="carousel-nav-arrows">
+          <button class="arrow-circle-btn" id="arrivals-prev" aria-label="Previous arrivals">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <polyline points="15 18 9 12 15 6"></polyline>
+            </svg>
+          </button>
+          <button class="arrow-circle-btn" id="arrivals-next" aria-label="Next arrivals">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <polyline points="9 18 15 12 9 6"></polyline>
+            </svg>
+          </button>
+        </div>
+      </div>
+
+      <!-- New Arrivals Category Filter Pills -->
+      <div class="arrivals-filter-bar">
+        <button class="filter-pill active" data-filter="all">All New</button>
+        <button class="filter-pill" data-filter="chairs">Chairs</button>
+        <button class="filter-pill" data-filter="tables">Tables</button>
+        <button class="filter-pill" data-filter="storage">Storage</button>
+        <button class="filter-pill" data-filter="beds">Beds</button>
+        <button class="filter-pill" data-filter="sofas">Sofas</button>
+        <button class="filter-pill" data-filter="outdoor">Outdoor</button>
+      </div>
+
+      <!-- New Arrivals Carousel / Grid -->
+      <div class="arrivals-carousel" id="arrivals-carousel">
+        <!-- 1. Oslo Bouclé Armchair -->
+        <article class="product-card arrival-card reveal-on-scroll delay-1" data-product-id="oslo-boucle-armchair">
+          <div class="product-image-wrap">
+            <img src="https://images.unsplash.com/photo-1586105251261-72a756497a11?auto=format&fit=crop&w=800&q=80" alt="Oslo Bouclé Armchair" class="product-image-primary" loading="lazy" />
+            <span class="product-badge badge-new">NEW</span>
+            <button class="product-wishlist-btn" aria-label="Save to wishlist" onclick="toggleWishlist('oslo-boucle-armchair')">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path></svg>
+            </button>
+            <button class="product-quick-view-btn" onclick="openQuickView('oslo-boucle-armchair')">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path><circle cx="12" cy="12" r="3"></circle></svg>
+              Quick View
+            </button>
+          </div>
+          <div class="product-body">
+            <span class="product-category-meta">Chairs</span>
+            <h4 class="product-name" onclick="openQuickView('oslo-boucle-armchair')" style="cursor:pointer">Oslo Bouclé Armchair</h4>
+            <div class="product-rating">
+              <span class="star-rating">★★★★★</span>
+              <span>5.0</span>
+              <span class="review-count">(38)</span>
+            </div>
+            <div class="product-footer">
+              <div class="product-price-wrap">
+                <span class="product-price">$720</span>
+                <span class="product-original-price">$850</span>
+              </div>
+              <button class="product-details-btn" onclick="openQuickView('oslo-boucle-armchair')">
+                View Details
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"></polyline></svg>
+              </button>
+            </div>
+          </div>
+        </article>
+
+        <!-- 2. Linear Walnut Credenza -->
+        <article class="product-card arrival-card reveal-on-scroll delay-2" data-product-id="linear-walnut-credenza">
+          <div class="product-image-wrap">
+            <img src="https://images.unsplash.com/photo-1538688525198-9b88f6f53126?auto=format&fit=crop&w=800&q=80" alt="Linear Walnut Credenza" class="product-image-primary" loading="lazy" />
+            <span class="product-badge badge-new">NEW</span>
+            <button class="product-wishlist-btn" aria-label="Save to wishlist" onclick="toggleWishlist('linear-walnut-credenza')">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path></svg>
+            </button>
+            <button class="product-quick-view-btn" onclick="openQuickView('linear-walnut-credenza')">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path><circle cx="12" cy="12" r="3"></circle></svg>
+              Quick View
+            </button>
+          </div>
+          <div class="product-body">
+            <span class="product-category-meta">Storage</span>
+            <h4 class="product-name" onclick="openQuickView('linear-walnut-credenza')" style="cursor:pointer">Linear Walnut Credenza</h4>
+            <div class="product-rating">
+              <span class="star-rating">★★★★★</span>
+              <span>4.9</span>
+              <span class="review-count">(24)</span>
+            </div>
+            <div class="product-footer">
+              <div class="product-price-wrap">
+                <span class="product-price">$1,580</span>
+                <span class="product-original-price">$1,750</span>
+              </div>
+              <button class="product-details-btn" onclick="openQuickView('linear-walnut-credenza')">
+                View Details
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"></polyline></svg>
+              </button>
+            </div>
+          </div>
+        </article>
+
+        <!-- 3. Celeste Cane Daybed -->
+        <article class="product-card arrival-card reveal-on-scroll delay-3" data-product-id="celeste-cane-daybed">
+          <div class="product-image-wrap">
+            <img src="https://images.unsplash.com/photo-1598300042247-d088f8ab3a91?auto=format&fit=crop&w=800&q=80" alt="Celeste Cane Daybed" class="product-image-primary" loading="lazy" />
+            <span class="product-badge badge-new">NEW</span>
+            <button class="product-wishlist-btn" aria-label="Save to wishlist" onclick="toggleWishlist('celeste-cane-daybed')">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path></svg>
+            </button>
+            <button class="product-quick-view-btn" onclick="openQuickView('celeste-cane-daybed')">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path><circle cx="12" cy="12" r="3"></circle></svg>
+              Quick View
+            </button>
+          </div>
+          <div class="product-body">
+            <span class="product-category-meta">Beds</span>
+            <h4 class="product-name" onclick="openQuickView('celeste-cane-daybed')" style="cursor:pointer">Celeste Cane Daybed</h4>
+            <div class="product-rating">
+              <span class="star-rating">★★★★★</span>
+              <span>4.8</span>
+              <span class="review-count">(19)</span>
+            </div>
+            <div class="product-footer">
+              <div class="product-price-wrap">
+                <span class="product-price">$1,290</span>
+              </div>
+              <button class="product-details-btn" onclick="openQuickView('celeste-cane-daybed')">
+                View Details
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"></polyline></svg>
+              </button>
+            </div>
+          </div>
+        </article>
+
+        <!-- 4. Kyoto Low Table -->
+        <article class="product-card arrival-card reveal-on-scroll delay-4" data-product-id="kyoto-low-table">
+          <div class="product-image-wrap">
+            <img src="https://images.unsplash.com/photo-1533090161767-e6ffed986c88?auto=format&fit=crop&w=800&q=80" alt="Kyoto Low Table" class="product-image-primary" loading="lazy" />
+            <span class="product-badge badge-new">NEW</span>
+            <button class="product-wishlist-btn" aria-label="Save to wishlist" onclick="toggleWishlist('kyoto-low-table')">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path></svg>
+            </button>
+            <button class="product-quick-view-btn" onclick="openQuickView('kyoto-low-table')">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path><circle cx="12" cy="12" r="3"></circle></svg>
+              Quick View
+            </button>
+          </div>
+          <div class="product-body">
+            <span class="product-category-meta">Tables</span>
+            <h4 class="product-name" onclick="openQuickView('kyoto-low-table')" style="cursor:pointer">Kyoto Low Table</h4>
+            <div class="product-rating">
+              <span class="star-rating">★★★★★</span>
+              <span>4.9</span>
+              <span class="review-count">(41)</span>
+            </div>
+            <div class="product-footer">
+              <div class="product-price-wrap">
+                <span class="product-price">$490</span>
+                <span class="product-original-price">$560</span>
+              </div>
+              <button class="product-details-btn" onclick="openQuickView('kyoto-low-table')">
+                View Details
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"></polyline></svg>
+              </button>
+            </div>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       7. PREMIUM OFFER BANNER
+       ========================================================================== -->
+  <section class="section offer-banner-section">
+    <div class="container">
+      <div class="offer-banner-box">
+        <img src="https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?auto=format&fit=crop&w=1800&q=80" alt="Woodkies Atelier Living Space" class="offer-bg" loading="lazy" />
+        <div class="offer-overlay"></div>
+        <div class="offer-content">
+          <span class="eyebrow" style="color:var(--color-soft-beige);">ESTABLISHED ATELIER</span>
+          <h2 class="offer-title">Designed to Last.<br />Made to Belong.</h2>
+          <p class="offer-text">
+            Discover timeless furniture crafted with quality materials and thoughtful design. Every Woodkies piece comes with complimentary inside white-glove placement.
+          </p>
+          <a href="#featured" class="btn-pill btn-primary">
+            Explore Collection
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <line x1="5" y1="12" x2="19" y2="12"></line>
+              <polyline points="12 5 19 12 12 19"></polyline>
+            </svg>
+          </a>
+
+          <div class="offer-perks">
+            <div class="offer-perk-item">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+              <span>White Glove Delivery</span>
+            </div>
+            <div class="offer-perk-item">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
+              <span>10-Year Structural Guarantee</span>
+            </div>
+            <div class="offer-perk-item">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path></svg>
+              <span>FSC® Certified Timber</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       8. CUSTOM FURNITURE SECTION
+       ========================================================================== -->
+  <section class="section" id="custom">
+    <div class="container">
+      <div class="custom-split-wrap">
+        <!-- Visual Left Column -->
+        <div class="custom-visual-col">
+          <div class="custom-image-frame">
+            <img src="https://images.unsplash.com/photo-1504148455328-c376907d081c?auto=format&fit=crop&w=1200&q=80" alt="Master Craftsman Shaping Oak Timber" loading="lazy" />
+          </div>
+          <div class="custom-floating-badge">
+            <h4>Bespoke Atelier</h4>
+            <p>Custom dimensions down to the millimeter. Built exclusively by master woodworkers in our workshop.</p>
+          </div>
+        </div>
+
+        <!-- Content Right Column -->
+        <div class="custom-content-col">
+          <span class="eyebrow eyebrow-accent">BESPOKE CRAFTSMANSHIP</span>
+          <h2 class="section-title">Made For Your Space</h2>
+          <p class="custom-desc">
+            From dimensions to finishes, create furniture that fits your space, style, and lifestyle. Collaborate directly with our design studio to realize your architectural vision.
+          </p>
+
+          <!-- 5 Customization Options -->
+          <div class="custom-options-list">
+            <div class="custom-option-item">
+              <div class="custom-option-icon">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="3" y2="18"></line><line x1="21" y1="6" x2="21" y2="18"></line></svg>
+              </div>
+              <div class="custom-option-text">
+                <h4>Custom Size</h4>
+                <p>Tailored widths, seating depths, and ceiling-height adjustments for your floorplan.</p>
+              </div>
+            </div>
+
+            <div class="custom-option-item">
+              <div class="custom-option-icon">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 19L8 6L12 15L16 6L20 19"></path></svg>
+              </div>
+              <div class="custom-option-text">
+                <h4>Wood Selection</h4>
+                <p>Solid American Walnut, Quarter-Sawn White Oak, Burmese Golden Teak, or Smoked Ash.</p>
+              </div>
+            </div>
+
+            <div class="custom-option-item">
+              <div class="custom-option-icon">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="9"></circle><path d="M12 3a9 9 0 0 1 9 9h-9V3z"></path></svg>
+              </div>
+              <div class="custom-option-text">
+                <h4>Finish & Color</h4>
+                <p>Velvety natural hardwax oil, organic matte sealants, or dramatic ebonized charred finishes.</p>
+              </div>
+            </div>
+
+            <div class="custom-option-item">
+              <div class="custom-option-icon">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20.24 12.24a6 6 0 0 0-8.49-8.49L5 10.5V19h8.5z"></path></svg>
+              </div>
+              <div class="custom-option-text">
+                <h4>Fabric Selection</h4>
+                <p>Heavy Belgian linens, rich textured bouclé, or buttery Tuscan aniline leather.</p>
+              </div>
+            </div>
+
+            <div class="custom-option-item">
+              <div class="custom-option-icon">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"></path></svg>
+              </div>
+              <div class="custom-option-text">
+                <h4>Custom Design</h4>
+                <p>One-of-a-kind statement pieces, architectural storage, and custom joinery detailing.</p>
+              </div>
+            </div>
+          </div>
+
+          <button class="btn-pill btn-primary open-custom-modal-btn">
+            Request Custom Furniture
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <line x1="5" y1="12" x2="19" y2="12"></line>
+              <polyline points="12 5 19 12 12 19"></polyline>
+            </svg>
+          </button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       9. WHY CHOOSE WOODKIES
+       ========================================================================== -->
+  <section class="section section-muted">
+    <div class="container">
+      <div class="section-header">
+        <span class="eyebrow">OUR COMMITMENT</span>
+        <h2 class="section-title">Why Woodkies?</h2>
+        <p class="section-subtitle">
+          Founded on uncompromised integrity, respectful forestry, and the belief that the finest furniture outlives trends.
+        </p>
+      </div>
+
+      <!-- 5 Feature Cards -->
+      <div class="why-features-grid" id="why-features-grid">
+        <!-- 1. Premium Craftsmanship -->
+        <div class="why-feature-card reveal-on-scroll delay-1">
+          <div class="why-icon-box">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"></path></svg>
+          </div>
+          <h3>Premium Craftsmanship</h3>
+          <p>Carefully crafted with attention to every detail, employing time-honored mortise & tenon joinery.</p>
+        </div>
+
+        <!-- 2. Quality Materials -->
+        <div class="why-feature-card reveal-on-scroll delay-2">
+          <div class="why-icon-box">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path></svg>
+          </div>
+          <h3>Quality Materials</h3>
+          <p>Selected sustainably-forested hardwoods and non-toxic plant wax finishes built for durability and long-term use.</p>
+        </div>
+
+        <!-- 3. Custom Designs -->
+        <div class="why-feature-card reveal-on-scroll delay-3">
+          <div class="why-icon-box">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect><line x1="3" y1="9" x2="21" y2="9"></line><line x1="9" y1="21" x2="9" y2="9"></line></svg>
+          </div>
+          <h3>Custom Designs</h3>
+          <p>Furniture tailored to your space, exact millimeters, wood preference, and upholstery choices.</p>
+        </div>
+
+        <!-- 4. Built to Last -->
+        <div class="why-feature-card reveal-on-scroll delay-4">
+          <div class="why-icon-box">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M5 22h14"></path><path d="M5 2h14"></path><path d="M17 22v-4.172a2 2 0 0 0-.586-1.414L12 12l-4.414 4.414A2 2 0 0 0 7 17.828V22"></path><path d="M7 2v4.172a2 2 0 0 0 .586 1.414L12 12l4.414-4.414A2 2 0 0 0 17 6.172V2"></path></svg>
+          </div>
+          <h3>Built to Last</h3>
+          <p>Timeless designs with dependable construction, backed by our 10-year comprehensive structural warranty.</p>
+        </div>
+
+        <!-- 5. Trusted Service -->
+        <div class="why-feature-card reveal-on-scroll delay-5">
+          <div class="why-icon-box">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+          </div>
+          <h3>Trusted Service</h3>
+          <p>Professional support from personalized design consultation to complimentary white-glove inside placement.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       10. ABOUT WOODKIES
+       ========================================================================== -->
+  <section class="section" id="about">
+    <div class="container">
+      <div class="about-split-wrap">
+        <!-- Visual Column -->
+        <div class="about-img-composition">
+          <img src="https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?auto=format&fit=crop&w=1200&q=80" alt="Woodkies Living Room Setting" class="about-main-img" loading="lazy" />
+          <div class="about-accent-box">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="var(--color-accent)" stroke-width="2"><path d="M12 2L2 7l10 5 10-5-10-5z"></path><path d="M2 17l10 5 10-5"></path><path d="M2 12l10 5 10-5"></path></svg>
+            <p>Slow Furniture.<br />Honoring Natural Grain.</p>
+          </div>
+        </div>
+
+        <!-- Editorial Story & Statistics -->
+        <div class="about-content-col">
+          <span class="eyebrow eyebrow-accent">BRAND PHILOSOPHY</span>
+          <h2 class="section-title">Crafted With Wood.<br />Designed For Life.</h2>
+          <p class="about-story">
+            <strong>Woodkies Woods and Furnitures</strong> is an American atelier dedicated to the enduring beauty of genuine timber. We believe that furniture is not merely functional hardware, but the quiet anchor of the home. 
+          </p>
+          <p class="about-story">
+            Every piece is shaped by master joiners who understand how grain responds to light, moisture, and season. Using strictly sustainable forestry partners, non-toxic plant wax finishes, and mortise-and-tenon construction, we build heirlooms intended to gather generations of memories.
+          </p>
+
+          <!-- 4 Statistics Counters -->
+          <div class="about-stats-grid">
+            <div class="stat-item">
+              <span class="stat-number" data-target="24" data-suffix="+">24+</span>
+              <span class="stat-label">Years of Craftsmanship</span>
+            </div>
+            <div class="stat-item">
+              <span class="stat-number" data-target="85" data-suffix="+">85+</span>
+              <span class="stat-label">Furniture Collections</span>
+            </div>
+            <div class="stat-item">
+              <span class="stat-number" data-target="14000" data-suffix="+">14,000+</span>
+              <span class="stat-label">Happy Customers</span>
+            </div>
+            <div class="stat-item">
+              <span class="stat-number" data-target="3200" data-suffix="+">3,200+</span>
+              <span class="stat-label">Custom Projects</span>
+            </div>
+          </div>
+
+          <a href="#custom" class="btn-pill btn-primary">
+            Discover Our Story
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <line x1="5" y1="12" x2="19" y2="12"></line>
+              <polyline points="12 5 19 12 12 19"></polyline>
+            </svg>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       11. CUSTOMER REVIEWS
+       ========================================================================== -->
+  <section class="section section-muted">
+    <div class="container">
+      <div class="section-header">
+        <span class="eyebrow eyebrow-accent">TESTIMONIALS</span>
+        <h2 class="section-title">Loved by Our Customers</h2>
+        <p class="section-subtitle">
+          Read genuine impressions from architects, interior designers, and homeowners who live with Woodkies every day.
+        </p>
+      </div>
+
+      <!-- Reviews Grid / Mobile Carousel -->
+      <div class="reviews-grid" id="reviews-grid">
+        <!-- 1. Eleanor Vance -->
+        <div class="review-card reveal-on-scroll delay-1">
+          <div>
+            <div class="review-stars">★★★★★</div>
+            <p class="review-text">“The Artisan Lounge Sofa exceeded every expectation. The Belgian linen feels divine, and the joinery underneath is absolute museum grade. Our living room feels serene and grounded.”</p>
+            <div class="review-purchased-badge">Artisan Lounge Sofa in Belgian Oatmeal Linen</div>
+          </div>
+          <div class="review-author">
+            <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=200&h=200&q=80" alt="Eleanor Vance" class="review-avatar" loading="lazy" />
+            <div class="review-author-info">
+              <h4>Eleanor Vance</h4>
+              <p>Upper West Side, NY</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- 2. Julian Croft -->
+        <div class="review-card reveal-on-scroll delay-2">
+          <div>
+            <div class="review-stars">★★★★★</div>
+            <p class="review-text">“We commissioned an 8-seater Oakwood Dining Table for our loft. The wood selection process was personal and seamless. Everyone who visits immediately touches the timber surface.”</p>
+            <div class="review-purchased-badge">Custom Oakwood Dining Table (96")</div>
+          </div>
+          <div class="review-author">
+            <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=200&h=200&q=80" alt="Julian Croft" class="review-avatar" loading="lazy" />
+            <div class="review-author-info">
+              <h4>Julian Croft</h4>
+              <p>SoHo Loft, NY</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- 3. Sophia Sterling -->
+        <div class="review-card reveal-on-scroll delay-3">
+          <div>
+            <div class="review-stars">★★★★★</div>
+            <p class="review-text">“Woodkies understands true luxury — no loud logos, just pure organic materials, flawless symmetry, and unparalleled comfort. The Heritage Queen Bed is our sanctuary.”</p>
+            <div class="review-purchased-badge">Heritage Queen Bed in American Walnut</div>
+          </div>
+          <div class="review-author">
+            <img src="https://images.unsplash.com/photo-1517841905240-472988babdf9?auto=format&fit=crop&w=200&h=200&q=80" alt="Sophia Sterling" class="review-avatar" loading="lazy" />
+            <div class="review-author-info">
+              <h4>Sophia Sterling</h4>
+              <p>Greenwich, CT</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- 4. Marcus Davenport -->
+        <div class="review-card reveal-on-scroll delay-4">
+          <div>
+            <div class="review-stars">★★★★★</div>
+            <p class="review-text">“From white-glove assembly to the feel of the hand-turned Minimalist Lounge Chair, Woodkies is the benchmark for modern American furniture.”</p>
+            <div class="review-purchased-badge">Minimalist Lounge Chair in Tuscan Saddle Leather</div>
+          </div>
+          <div class="review-author">
+            <img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=200&h=200&q=80" alt="Marcus Davenport" class="review-avatar" loading="lazy" />
+            <div class="review-author-info">
+              <h4>Marcus Davenport</h4>
+              <p>Tribeca, NY</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       12. FURNITURE GALLERY / INSPIRATION
+       ========================================================================== -->
+  <section class="section" id="gallery">
+    <div class="container">
+      <div class="section-header">
+        <span class="eyebrow">VISUAL LOOKBOOK</span>
+        <h2 class="section-title">Inspired Spaces</h2>
+        <p class="section-subtitle">
+          An asymmetric editorial showcase of real spaces styled with Woodkies woods. Hover over any scene to discover the featured piece.
+        </p>
+      </div>
+
+      <!-- Instagram-Style Asymmetric Grid -->
+      <div class="gallery-masonry" id="gallery-masonry">
+        <!-- 1 -->
+        <div class="gallery-item reveal-on-scroll delay-1" onclick="openQuickView('artisan-lounge-sofa')">
+          <img src="https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?auto=format&fit=crop&w=1000&q=80" alt="Morning Light at the Tribeca Loft" loading="lazy" />
+          <div class="gallery-hover-overlay">
+            <span class="gallery-tag">Lookbook Curated</span>
+            <div class="gallery-bottom-info">
+              <div>
+                <h4 class="gallery-product-title">Artisan Lounge Sofa & Travertine Table</h4>
+                <p style="color:#f1ede8; font-size:0.85rem;">Morning Light at the Tribeca Loft</p>
+              </div>
+              <button class="gallery-action-link">View Product <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg></button>
+            </div>
+          </div>
+        </div>
+
+        <!-- 2 -->
+        <div class="gallery-item reveal-on-scroll delay-2" onclick="openQuickView('minimalist-lounge-chair')">
+          <img src="https://images.unsplash.com/photo-1586023492125-27b2c045efd7?auto=format&fit=crop&w=1000&q=80" alt="Quiet Reading Nook in White Oak" loading="lazy" />
+          <div class="gallery-hover-overlay">
+            <span class="gallery-tag">Lookbook Curated</span>
+            <div class="gallery-bottom-info">
+              <div>
+                <h4 class="gallery-product-title">Minimalist Lounge Chair</h4>
+                <p style="color:#f1ede8; font-size:0.85rem;">Quiet Reading Nook in White Oak</p>
+              </div>
+              <button class="gallery-action-link">View Product <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg></button>
+            </div>
+          </div>
+        </div>
+
+        <!-- 3 -->
+        <div class="gallery-item reveal-on-scroll delay-1" onclick="openQuickView('oakwood-dining-table')">
+          <img src="https://images.unsplash.com/photo-1617806118233-18e1de247200?auto=format&fit=crop&w=1000&q=80" alt="Sunday Family Dinner Setting" loading="lazy" />
+          <div class="gallery-hover-overlay">
+            <span class="gallery-tag">Lookbook Curated</span>
+            <div class="gallery-bottom-info">
+              <div>
+                <h4 class="gallery-product-title">Oakwood Dining Table</h4>
+                <p style="color:#f1ede8; font-size:0.85rem;">Sunday Family Dinner Setting</p>
+              </div>
+              <button class="gallery-action-link">View Product <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg></button>
+            </div>
+          </div>
+        </div>
+
+        <!-- 4 -->
+        <div class="gallery-item reveal-on-scroll delay-2" onclick="openQuickView('heritage-queen-bed')">
+          <img src="https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?auto=format&fit=crop&w=1000&q=80" alt="Calm Minimalist Sleeping Sanctuary" loading="lazy" />
+          <div class="gallery-hover-overlay">
+            <span class="gallery-tag">Lookbook Curated</span>
+            <div class="gallery-bottom-info">
+              <div>
+                <h4 class="gallery-product-title">Heritage Queen Bed</h4>
+                <p style="color:#f1ede8; font-size:0.85rem;">Calm Minimalist Sleeping Sanctuary</p>
+              </div>
+              <button class="gallery-action-link">View Product <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg></button>
+            </div>
+          </div>
+        </div>
+
+        <!-- 5 -->
+        <div class="gallery-item reveal-on-scroll delay-3" onclick="openQuickView('nordic-spindle-bookshelf')">
+          <img src="https://images.unsplash.com/photo-1518455027359-f3f8164ba6bd?auto=format&fit=crop&w=1000&q=80" alt="Focused Workspace with Natural Light" loading="lazy" />
+          <div class="gallery-hover-overlay">
+            <span class="gallery-tag">Lookbook Curated</span>
+            <div class="gallery-bottom-info">
+              <div>
+                <h4 class="gallery-product-title">Nordic Spindle Bookshelf</h4>
+                <p style="color:#f1ede8; font-size:0.85rem;">Focused Workspace with Natural Light</p>
+              </div>
+              <button class="gallery-action-link">View Product <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg></button>
+            </div>
+          </div>
+        </div>
+
+        <!-- 6 -->
+        <div class="gallery-item reveal-on-scroll delay-1" onclick="openQuickView('celeste-cane-daybed')">
+          <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1000&q=80" alt="Warm Teak Architectural Patio" loading="lazy" />
+          <div class="gallery-hover-overlay">
+            <span class="gallery-tag">Lookbook Curated</span>
+            <div class="gallery-bottom-info">
+              <div>
+                <h4 class="gallery-product-title">Celeste Cane Daybed & Low Table</h4>
+                <p style="color:#f1ede8; font-size:0.85rem;">Warm Teak Architectural Patio</p>
+              </div>
+              <button class="gallery-action-link">View Product <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg></button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       13. CONTACT / VISIT OUR STORE
+       ========================================================================== -->
+  <section class="section" id="contact">
+    <div class="container">
+      <div class="contact-split-wrap">
+        <!-- Left: Contact Details & Consultation Form -->
+        <div class="contact-info-col">
+          <span class="eyebrow eyebrow-accent">FLAGSHIP SHOWROOM</span>
+          <h2 class="section-title">Visit Woodkies</h2>
+          <p class="contact-intro">
+            Experience the tactile warmth of natural wood in person. Our design consultants are available for complimentary one-on-one interior planning sessions.
+          </p>
+
+          <div class="contact-details-list">
+            <!-- Address -->
+            <div class="contact-detail-row">
+              <div class="contact-detail-icon">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+              </div>
+              <div class="contact-detail-content">
+                <h4>Store Address</h4>
+                <p>42 Timberline Boulevard, Artisan Design District, NY 10012</p>
+              </div>
+            </div>
+
+            <!-- Phone -->
+            <div class="contact-detail-row">
+              <div class="contact-detail-icon">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+              </div>
+              <div class="contact-detail-content">
+                <h4>Phone Support</h4>
+                <p><a href="tel:+18004829663">+1 (800) 482-9663</a></p>
+              </div>
+            </div>
+
+            <!-- WhatsApp -->
+            <div class="contact-detail-row">
+              <div class="contact-detail-icon">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"></path></svg>
+              </div>
+              <div class="contact-detail-content">
+                <h4>Direct WhatsApp Concierge</h4>
+                <p><a href="https://wa.me/18004829664" target="_blank" rel="noopener">+1 (800) 482-9664</a></p>
+              </div>
+            </div>
+
+            <!-- Email -->
+            <div class="contact-detail-row">
+              <div class="contact-detail-icon">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+              </div>
+              <div class="contact-detail-content">
+                <h4>Email</h4>
+                <p><a href="mailto:concierge@woodkiesfurniture.com">concierge@woodkiesfurniture.com</a></p>
+              </div>
+            </div>
+
+            <!-- Opening Hours -->
+            <div class="contact-detail-row">
+              <div class="contact-detail-icon">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
+              </div>
+              <div class="contact-detail-content">
+                <h4>Opening Hours</h4>
+                <p>Mon - Sat: 10:00 AM – 7:30 PM<br />Sunday: 11:00 AM – 6:00 PM</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Buttons: Get Directions & Contact Us -->
+          <div class="contact-buttons-row">
+            <a href="https://maps.google.com/?q=New+York+Design+District" target="_blank" rel="noopener" class="btn-pill btn-primary">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="3 11 22 2 13 21 11 13 3 11"></polygon></svg>
+              Get Directions
+            </a>
+            <button class="btn-pill btn-outline-dark open-custom-modal-btn">
+              Contact Us
+            </button>
+          </div>
+        </div>
+
+        <!-- Right: Map / Store Preview Section -->
+        <div class="contact-map-col">
+          <img src="https://images.unsplash.com/photo-1524758631624-e2822e304c36?auto=format&fit=crop&w=1200&q=80" alt="Woodkies Showroom Interior" class="store-image-bg" loading="lazy" />
+          <div class="map-floating-card">
+            <div class="map-status-pill">
+              <span class="status-dot"></span>
+              Showroom Open Today
+            </div>
+            <h4>Woodkies Manhattan Atelier</h4>
+            <p>Timberline Boulevard & 5th Avenue • Complimentary Valet Parking & Espresso Bar</p>
+            <a href="tel:+18004829663" class="btn-pill btn-primary" style="padding:0.5rem 1.15rem; font-size:0.8rem; width:100%; text-align:center;">
+              Call Showroom Desk
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       14. FOOTER
+       ========================================================================== -->
+  <footer class="footer">
+    <div class="container">
+      <!-- Newsletter Subscription Card -->
+      <div class="footer-newsletter-wrap">
+        <div class="newsletter-text">
+          <span class="eyebrow" style="color:var(--color-accent);">EXCLUSIVE CIRCLE</span>
+          <h3>Get inspiration, new collections and special offers.</h3>
+          <p>Be the first to preview seasonal timber drops and private atelier events.</p>
+        </div>
+        <form class="newsletter-form" id="newsletter-form">
+          <input type="email" class="newsletter-input" placeholder="Enter your email address" required aria-label="Email address" />
+          <button type="submit" class="newsletter-btn">Subscribe</button>
+        </form>
+      </div>
+
+      <!-- Multi-Column Links -->
+      <div class="footer-top-grid">
+        <!-- Woodkies Brand Column -->
+        <div class="footer-brand-col">
+          <div class="footer-brand-header">
+            <div class="footer-logo-circle">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2">
+                <path d="M4 19L8 6L12 15L16 6L20 19"></path>
+              </svg>
+            </div>
+            <span class="footer-brand-name">Woodkies</span>
+          </div>
+          <p class="footer-brand-desc">
+            Woodkies Woods and Furnitures crafts enduring heirlooms from certified American hardwoods. Designed to bring character, tactile warmth, and timeless calm into everyday spaces.
+          </p>
+        </div>
+
+        <!-- Furniture Collections Column -->
+        <div class="footer-col">
+          <h4>Furniture Collections</h4>
+          <ul class="footer-links-list">
+            <li><a href="#featured" onclick="filterProductsByCategory('sofas')">Sofas</a></li>
+            <li><a href="#featured" onclick="filterProductsByCategory('beds')">Beds</a></li>
+            <li><a href="#featured" onclick="filterProductsByCategory('dining-tables')">Dining</a></li>
+            <li><a href="#featured" onclick="filterProductsByCategory('chairs')">Chairs</a></li>
+            <li><a href="#featured" onclick="filterProductsByCategory('wardrobes')">Wardrobes</a></li>
+            <li><a href="#featured" onclick="filterProductsByCategory('office-furniture')">Office Furniture</a></li>
+          </ul>
+        </div>
+
+        <!-- Company Column -->
+        <div class="footer-col">
+          <h4>Company</h4>
+          <ul class="footer-links-list">
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#about">Our Story</a></li>
+            <li><a href="#custom">Custom Furniture</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+
+        <!-- Customer Support Column -->
+        <div class="footer-col">
+          <h4>Customer Support</h4>
+          <ul class="footer-links-list">
+            <li><a href="#contact">Shipping & Placement</a></li>
+            <li><a href="#contact">Returns Policy</a></li>
+            <li><a href="#contact">10-Year Warranty</a></li>
+            <li><a href="#contact">FAQs</a></li>
+          </ul>
+        </div>
+
+        <!-- Connect Column -->
+        <div class="footer-col">
+          <h4>Connect</h4>
+          <ul class="footer-links-list">
+            <li><a href="https://instagram.com" target="_blank" rel="noopener">Instagram</a></li>
+            <li><a href="https://facebook.com" target="_blank" rel="noopener">Facebook</a></li>
+            <li><a href="https://wa.me/18004829664" target="_blank" rel="noopener">WhatsApp</a></li>
+            <li><a href="https://youtube.com" target="_blank" rel="noopener">YouTube</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Footer Bottom Bar -->
+      <div class="footer-bottom">
+        <p>© 2026 Woodkies Woods and Furnitures. All Rights Reserved.</p>
+        <div class="footer-bottom-links">
+          <a href="#">Privacy Policy</a>
+          <a href="#">Terms of Service</a>
+          <a href="#">Sustainability Charter</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ==========================================================================
+       INTERACTIVE DRAWERS & MODALS
+       ========================================================================== -->
+
+  <!-- Drawer Backdrop Layer -->
+  <div class="drawer-backdrop" id="drawer-backdrop"></div>
+
+  <!-- Liked Collection Drawer -->
+  <aside class="side-drawer" id="wishlist-drawer" aria-label="Liked Collection">
+    <div class="drawer-header">
+      <div class="drawer-title-wrap">
+        <h3>Liked Collection</h3>
+        <span class="drawer-count" id="wishlist-drawer-count">(0 pieces)</span>
+      </div>
+      <button class="close-btn close-drawer-btn" aria-label="Close Liked Collection">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <line x1="18" y1="6" x2="6" y2="18"></line>
+          <line x1="6" y1="6" x2="18" y2="18"></line>
+        </svg>
+      </button>
+    </div>
+    <div class="drawer-body" id="wishlist-items-list">
+      <!-- Injected by js/app.js -->
+    </div>
+    <div class="drawer-footer">
+      <button class="drawer-checkout-btn" onclick="inquireAboutLikedPieces()">
+        Inquire About Liked Pieces
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <line x1="5" y1="12" x2="19" y2="12"></line>
+          <polyline points="12 5 19 12 12 19"></polyline>
+        </svg>
+      </button>
+    </div>
+  </aside>
+
+  <!-- Product Quick View Modal -->
+  <div class="modal-wrapper" id="quick-view-modal" role="dialog" aria-modal="true" aria-label="Product Quick View">
+    <div class="modal-backdrop-layer"></div>
+    <div class="modal-container">
+      <button class="modal-close-btn" id="close-quick-view-btn" aria-label="Close quick view">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <line x1="18" y1="6" x2="6" y2="18"></line>
+          <line x1="6" y1="6" x2="18" y2="18"></line>
+        </svg>
+      </button>
+      <div id="quick-view-content">
+        <!-- Injected dynamically on click -->
+      </div>
+    </div>
+  </div>
+
+  <!-- Custom Furniture Request Modal -->
+  <div class="modal-wrapper" id="custom-furniture-modal" role="dialog" aria-modal="true" aria-label="Request Custom Furniture">
+    <div class="modal-backdrop-layer"></div>
+    <div class="modal-container" style="max-width:720px;">
+      <button class="modal-close-btn" id="close-custom-modal-btn" aria-label="Close request dialog">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <line x1="18" y1="6" x2="6" y2="18"></line>
+          <line x1="6" y1="6" x2="18" y2="18"></line>
+        </svg>
+      </button>
+      <div class="custom-modal-content">
+        <span class="eyebrow eyebrow-accent" id="cf-modal-eyebrow">BESPOKE ATELIER COMMISSION</span>
+        <h3 id="cf-modal-title">Request Custom Furniture</h3>
+        <p id="cf-modal-desc" style="color:var(--color-text-muted); font-size:0.95rem;">
+          Tell us about your room, target dimensions, preferred hardwood, and finishes. A Woodkies master craftsman will prepare an architectural rendering and initial estimate within 24 hours.
+        </p>
+
+        <form id="custom-furniture-form" class="custom-form-grid">
+          <div class="form-group">
+            <label class="form-label" for="cf-name">Your Full Name</label>
+            <input type="text" id="cf-name" class="form-input" placeholder="e.g. Julian Croft" required />
+          </div>
+
+          <div class="form-group">
+            <label class="form-label" for="cf-email">Email Address</label>
+            <input type="email" id="cf-email" class="form-input" placeholder="name@domain.com" required />
+          </div>
+
+          <div class="form-group">
+            <label class="form-label" for="cf-category">Furniture Category</label>
+            <select id="cf-category" class="form-select">
+              <option value="Dining Table">Dining Table</option>
+              <option value="Sofa / Sectional">Sofa / Sectional</option>
+              <option value="Platform Bed">Platform Bed</option>
+              <option value="Lounge Chair">Lounge Chair</option>
+              <option value="Wardrobe / Credenza">Wardrobe / Credenza</option>
+              <option value="Office Desk">Office Desk</option>
+              <option value="Architectural Wall Unit">Architectural Wall Unit</option>
+            </select>
+          </div>
+
+          <div class="form-group">
+            <label class="form-label" for="cf-wood">Preferred Hardwood</label>
+            <select id="cf-wood" class="form-select">
+              <option value="Quarter-Sawn White Oak">Quarter-Sawn White Oak</option>
+              <option value="American Walnut">American Black Walnut</option>
+              <option value="Burmese Golden Teak">Burmese Golden Teak</option>
+              <option value="Smoked Appalachian Ash">Smoked Appalachian Ash</option>
+            </select>
+          </div>
+
+          <div class="form-group">
+            <label class="form-label" for="cf-dimensions">Approx. Dimensions (W × D × H)</label>
+            <input type="text" id="cf-dimensions" class="form-input" placeholder="e.g. 96&quot;W × 40&quot;D × 30&quot;H" />
+          </div>
+
+          <div class="form-group">
+            <label class="form-label" for="cf-finish">Finish Preference</label>
+            <select id="cf-finish" class="form-select">
+              <option value="Organic Matte Wax">Organic Matte Hardwax</option>
+              <option value="Silky Satin Seal">Silky Satin Seal</option>
+              <option value="Charred / Ebonized">Charred / Ebonized Black</option>
+              <option value="Raw Natural Bleached">Raw Natural Bleached</option>
+            </select>
+          </div>
+
+          <div class="form-group full-width">
+            <label class="form-label" for="cf-notes">Special Requirements or Architectural Notes</label>
+            <textarea id="cf-notes" class="form-textarea" placeholder="Describe any unique features such as cable management, brass inlays, specific seating capacity, or room floorplan details..."></textarea>
+          </div>
+
+          <div class="form-group full-width" style="margin-top:0.5rem;">
+            <button type="submit" class="btn-pill btn-primary" style="width:100%; padding:0.95rem;">
+              Submit Custom Commission Request
+            </button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <!-- Toast Notifications Container -->
+  <div class="toast-container" id="toast-container"></div>
+
+  <!-- Main JavaScript Module -->
+  <script type="module" src="./js/app.js"></script>
+</body>
+</html>
